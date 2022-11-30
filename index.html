@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="winner"></div>
     <div class="container">
-      <div id="player-1">
+      <div id="player-1" class="overlay display">
         <div class="previous-score">
           <p>PLAYER 1</p>
           <p class="score-1">0</p>
@@ -19,7 +20,7 @@
           <p class="current-1">0</p>
         </div>
       </div>
-      <div id="player-2">
+      <div id="player-2" class="display">
         <div class="previous-score">
           <p>PLAYER 2</p>
           <p class="score-2">0</p>
@@ -31,17 +32,19 @@
       </div>
     </div>
     <div class="middle">
-      <button class="new-game">🔄️ NEW GAME</button>
-      <img src="./dice 1.png" alt="" class="dice" id="d-1" />
-      <img src="./dice 2.png" alt="" class="dice" id="d-2" />
+      <!-- <button class="new-game">🔄️ NEW GAME</button> -->
+      <button class="new-game">PLAY</button>
+      <img src="./dice 1.png" alt="" class="dice" />
+      <!-- <img src="./dice 2.png" alt="" class="dice" id="d-2" />
       <img src="./dice 3.png" alt="" class="dice" id="d-3" />
       <img src="./dice 4.png" alt="" class="dice" id="d-4" />
       <img src="./dice 5.png" alt="" class="dice" id="d-5" />
-      <img src="./dice 6.png" alt="" class="dice" id="d-6" />
+      <img src="./dice 6.png" alt="" class="dice" id="d-6" /> -->
       <div class="bottom">
         <button class="roll-dice">🎲 ROLL DICE</button>
         <button class="hold">⬇️ HOLD</button>
       </div>
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>
